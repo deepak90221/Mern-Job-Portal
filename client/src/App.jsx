@@ -15,7 +15,7 @@ import { AdminUsers } from "./pages/Admin-User";
 import { EditForm } from "./pages/Admin-Update";
 import { PostServicex } from "./pages/PostServices";
 import { JobStatus } from "./pages/JobStatuses";
-
+import { Wishlist } from "./pages/Wishlist_Cart";
 import { AdminLoginRegister } from "./pages/AdminRegLog";
 
 import { JobApplicationForm } from "./pages/JobForm";
@@ -25,6 +25,7 @@ import { JobApplicationForm } from "./pages/JobForm";
 import { Instructions } from "./pages/Examinstruct";
 
 import { ProfilePage } from "./pages/Profile";
+import {OrderTracking} from "./pages/Track";
 
 
 //import { Exam } from "./pages/WriteExam";
@@ -52,9 +53,11 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/edit" element={<EditForm />} />
           <Route path="/post" element={<PostServicex />} />
+          <Route path="/track" element={<OrderTracking/>} />
+
           
 
-
+          <Route path="/cart" element={<Wishlist />} />
 
 
           <Route path="/login" element={<Login />} />

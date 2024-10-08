@@ -53,7 +53,7 @@ export const Contact = () => {
                 body: JSON.stringify({ empid: responseData.empid, email: formData.email }),
             });
 
-            toast("Contact form saved and email sent successfully");
+            toast("Message received, and email sent successfully");
 
             navigate("/");
             setFormData({
@@ -74,13 +74,13 @@ export const Contact = () => {
                 <div className="section-contact">
                     <div className="container grid grid-two-cols">
                         <div className="contact-image">
-                            <img src="/images/background.png" alt="Contact Us" />
+                            <img src="./images/contact_art.png" alt="Contact Us" />
                         </div>
                     </div>
                 </div>
 
                 <div className="registration-form">
-                    <h1 className="main-heading mb-3">Contact Us</h1>
+                    <h1 className="main-heading mb-3">Contact the Art Gallery</h1>
                     <br/>
 
                     <form onSubmit={handleSubmit}>
@@ -105,7 +105,7 @@ export const Contact = () => {
                         <div>
                             <label htmlFor="message">Message</label>
                             <textarea name="message" id="message" 
-                                      placeholder="Enter your message" 
+                                      placeholder="Share your thoughts or inquiries about our exhibitions" 
                                       required
                                       value={formData.message}
                                       onChange={handleInput}></textarea>
@@ -124,4 +124,3 @@ export const Contact = () => {
         </section>
     );
 };
-

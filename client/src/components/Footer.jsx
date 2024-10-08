@@ -7,12 +7,12 @@ export const Footer = () => {
       padding: '20px', 
       textAlign: 'center', 
       color: 'white',
-      position: 'static', 
+      position: 'fixed', 
       left: 0, 
       bottom: 0, 
       width: '100%' 
     }}>
-      <p>&copy; 2024 Job Portal. All rights reserved.</p>
+      <p>&copy; 2024 Online Art Gallery Portal. All rights reserved.</p>
     </footer>
   );
 }

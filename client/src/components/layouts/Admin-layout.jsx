@@ -7,7 +7,7 @@ import { MdDesignServices } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 
 
-import { MdSettingsApplications } from "react-icons/md";
+//import { MdSettingsApplications } from "react-icons/md";
 
 import "./AdminLayout.css";
 
@@ -23,8 +23,7 @@ export const Adminlayout = ()=>{
                     <ul>
                         <li><NavLink to="/admin/contacts"><RiUserShared2Fill />users</NavLink></li>
                         <li><NavLink to="/admin/users"><RiContactsFill />contact</NavLink></li>
-                        <li><NavLink to="/post"><MdDesignServices />post-jobs</NavLink></li>
-                        <li><NavLink to="/jobs"><MdSettingsApplications />jobapplications</NavLink></li>
+                        <li><NavLink to="/post"><MdDesignServices />post-arts</NavLink></li>
 
                         
                     </ul>

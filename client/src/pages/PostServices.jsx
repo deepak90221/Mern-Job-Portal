@@ -112,7 +112,7 @@ export const PostServicex = () => {
                 <h1>Admin Post :</h1>
                 <br></br>
                 <h2 className="service-heading">
-                    {editingServiceId ? 'Edit Service' : 'Post a New Job'}
+                    {editingServiceId ? 'Edit Service' : 'Post a New Art'}
                 </h2>
                 <form onSubmit={handleSubmit} className="post-service-form">
                     <input
@@ -151,14 +151,14 @@ export const PostServicex = () => {
                         required
                     />
                     <button type="submit" className="post-service-btn">
-                        {editingServiceId ? 'Update Service' : 'Add Job'}
+                        {editingServiceId ? 'Update Service' : 'Add Art'}
                     </button>
                 </form>
             </div>
 
             <div className="services-list">
                 <br></br>
-                <h2 className="services-heading"> Existing Jobs: </h2>
+                <h2 className="services-heading"> Existing Arts: </h2>
                 <div className="service-grid">
                     {services.map(service => (
                         <div key={service._id} className="service-card">
