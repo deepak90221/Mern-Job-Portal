@@ -73,7 +73,7 @@ export const JobApplicationForm = () => {
           <img src="/images/jobs.png" alt="Job Application" />
         </div>
         <div className="application-form">
-          <h1 className="heading">Job Application Form</h1>
+          <h1 className="heading">Project Registration Form</h1>
           <form onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="firstname">First Name</label>

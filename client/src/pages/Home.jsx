@@ -12,32 +12,32 @@ export const Home = () => {
                 </div>
             )}
             <div className="home-left">
-                <h1>Welcome to the Art Gallery!</h1>
-                <p className="home-intro">A World of Creativity and Imagination Awaits</p>
-                <h2>Explore Our Collection</h2>
+                <h1>This is the Project Registration Portal!</h1>
+                <p className="home-intro">We are the Best!!</p>
+                <h2>Welcome to Job Portal</h2>
                 <p className="home-description">
-                    Discover a curated selection of contemporary and classic art pieces that ignite 
-                    inspiration and creativity. Our gallery is dedicated to showcasing the finest talent 
-                    from around the globe.
+                    Are you ready to take to next level with cutting-edge project solutions? Look no further! 
+                    At Project Portal, we specialize in providing innovative project services solutions tailored 
+                    to connect now and learn more unique needs.
                 </p>
                 <div className="button-container">
-                    <button className="btn">Visit Now</button>
+                    <button className="btn">Connect Now</button>
                     <button className="btn">Learn More</button>
                 </div>
                 <div className="info-section">
-                    <p>200+ <br />
-                        Art Exhibitions</p>
-                    <p>5000+ <br />
-                        Artworks Displayed</p>
-                    <p>Worldwide <br />Reach</p>
-                    <p>150<br />
-                        Renowned Artists</p>
+                    <p>50+ <br />
+                        Registered Companies</p>
+                    <p>10,000+ <br />
+                        Clients</p>
+                    <p>24/7 <br />Services</p>
+                    <p>500<br />
+                        Well-known Developers</p>
                 </div>
             </div>
             <div className="home-right">
                 <img
-                    src="https://th.bing.com/th/id/OIP.YeSN1YouGpMhvdd_oyUeAwHaE0?w=330&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-                    alt="Art Gallery"
+                    src="https://th.bing.com/th/id/OIP.bewksOduGa7GxMafbLfqhgAAAA?rs=1&pid=ImgDetMain"
+                    alt="Thapa Technical"
                     className="home-image"
                 />
             </div>

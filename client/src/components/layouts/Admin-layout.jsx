@@ -23,7 +23,7 @@ export const Adminlayout = ()=>{
                     <ul>
                         <li><NavLink to="/admin/contacts"><RiUserShared2Fill />users</NavLink></li>
                         <li><NavLink to="/admin/users"><RiContactsFill />contact</NavLink></li>
-                        <li><NavLink to="/post"><MdDesignServices />post-arts</NavLink></li>
+                        <li><NavLink to="/post"><MdDesignServices />post-projects</NavLink></li>
 
                         
                     </ul>

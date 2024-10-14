@@ -16,7 +16,7 @@ export const Navbar = () => {
       <header className="navbar-fixed">
         <div className="container">
           <div className="Logo-symbol">
-            <NavLink to="/">ART-GALLERY </NavLink>
+            <NavLink to="/">PROJECT REGISTRATION </NavLink>
           </div>
         </div>
         <nav>
@@ -31,14 +31,9 @@ export const Navbar = () => {
               <NavLink to="/contact">Contact</NavLink>
             </li>
             <li>
-              <NavLink to="/services">Arts</NavLink>
+              <NavLink to="/services">Projects</NavLink>
             </li>
-            <li>
-              <NavLink to="/cart">Cart</NavLink>
-            </li>
-            <li>
-              <NavLink to="/track">Track</NavLink>
-            </li>
+          
             {isLoggedIn ? (
               <>
                 <li>
