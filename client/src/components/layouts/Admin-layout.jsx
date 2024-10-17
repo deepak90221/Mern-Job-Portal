@@ -24,6 +24,9 @@ export const Adminlayout = ()=>{
                         <li><NavLink to="/admin/contacts"><RiUserShared2Fill />users</NavLink></li>
                         <li><NavLink to="/admin/users"><RiContactsFill />contact</NavLink></li>
                         <li><NavLink to="/post"><MdDesignServices />post-projects</NavLink></li>
+                        <li><NavLink to="/jobs"><MdDesignServices />project-applications</NavLink></li>
+
+
 
                         
                     </ul>

@@ -133,7 +133,7 @@ export const AdminJob = () => {
     return (
         <>
             <div>
-                <h1>Job Applications Panel:</h1>
+                <h1>Project Applications Panel:</h1>
                 {jobStatus && <JobStatus jobStatus={jobStatus} />}
                 {jobs.length > 0 ? (
                     <table className="jobs-table">
@@ -143,7 +143,7 @@ export const AdminJob = () => {
                                 <th>Last Name</th>
                                 <th>Email</th>
                                 <th>Phone</th>
-                                <th>Programming Language</th>
+                                <th>Projects Registered</th>
                                 <th>Experience</th>
                                 <th>Actions</th>
                             </tr>

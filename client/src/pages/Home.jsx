@@ -14,7 +14,7 @@ export const Home = () => {
             <div className="home-left">
                 <h1>This is the Project Registration Portal!</h1>
                 <p className="home-intro">We are the Best!!</p>
-                <h2>Welcome to Job Portal</h2>
+                <h2>Welcome to Project Registration</h2>
                 <p className="home-description">
                     Are you ready to take to next level with cutting-edge project solutions? Look no further! 
                     At Project Portal, we specialize in providing innovative project services solutions tailored 

@@ -9,14 +9,15 @@ export const About = () => {
             </div>
             <div className="about-content">
                 <div className="about-description">
-                    <p>
-                        We are a cutting-edge IT company specializing in providing innovative technology solutions. 
-                        Our mission is to help businesses and individuals achieve their goals through technology.
-                    </p>
-                    <p>
-                        Our team of experts is dedicated to delivering high-quality services and exceptional customer support.
-                        We pride ourselves on our ability to adapt to the ever-changing landscape of technology.
-                    </p>
+                <p>
+    We are a forward-thinking project management team specializing in delivering high-impact projects efficiently and effectively.
+    Our mission is to help businesses and organizations achieve their goals through strategic planning and agile execution.
+</p>
+<p>
+    Our team of certified project managers is committed to providing exceptional service and support throughout the project lifecycle.
+    We pride ourselves on our ability to adapt to evolving project requirements and ensure successful outcomes in dynamic environments.
+</p>
+
                     <div className="about-buttons">
                     <NavLink to="/register" className="btn">Connect Now!!</NavLink>
                     <NavLink to="/register" className="btn">Learn more</NavLink>

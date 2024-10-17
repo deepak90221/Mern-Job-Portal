@@ -12,7 +12,7 @@ export const Footer = () => {
       bottom: 0, 
       width: '100%' 
     }}>
-      <p>&copy; 2024 Online Art Gallery Portal. All rights reserved.</p>
+      <p>&copy; 2024 Online Project Management. All rights reserved.</p>
     </footer>
   );
 }

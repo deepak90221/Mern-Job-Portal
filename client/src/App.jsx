@@ -23,6 +23,7 @@ import { JobApplicationForm } from "./pages/JobForm";
 //import { CodingExam } from "./pages/WriteExam";
 
 import { Instructions } from "./pages/Examinstruct";
+import { AdminJob } from "./pages/Admin-Job";
 
 import { ProfilePage } from "./pages/Profile";
 import {OrderTracking} from "./pages/Track";
@@ -37,7 +38,6 @@ import OtpMail from "./pages/OtpMail";
 import VerifyOtp from './pages/VerifyOtp';
 
 
-import { AdminJob} from "./pages/Admin-Job";
 import CodingExam from "./pages/WriteExam";
 const App = () => {
   return (

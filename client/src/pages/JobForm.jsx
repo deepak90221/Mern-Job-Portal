@@ -124,7 +124,7 @@ export const JobApplicationForm = () => {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="programmingLanguage">Programming Language</label>
+              <label htmlFor="programmingLanguage">Select Your Project</label>
               <select
                 name="programmingLanguage"
                 id="programmingLanguage"
@@ -132,16 +132,39 @@ export const JobApplicationForm = () => {
                 onChange={handleInput}
                 required
               >
-                <option value="">Select a programming language</option>
-                <option value="C">C</option>
-                <option value="C++">C++</option>
-                <option value="Python">Python</option>
-                <option value="Java">Java</option>
-                <option value="Python-advanced">Python-advanced</option>
-                <option value="Java-advanced">Java-advanced</option>
+               <option value="climate-change-birds">The Impact of Climate Change on Birds with Machine Learning</option>
+<option value="speech-emotion-librosa">Speech Emotion Recognition with librosa</option>
+<option value="hm-fashion-recommendation">H&M Personalized Fashion Recommendations</option>
+<option value="mlops-end-to-end">MLOps End-To-End Machine Learning</option>
+<option value="deepfake-detection">Deepfake Detection with Machine Learning</option>
+<option value="language-classification">Language Classification with Machine Learning</option>
+<option value="amazon-reviews-sentiment">Amazon Products Reviews Sentiment Analysis with Machine Learning</option>
+<option value="email-spam-detection">Email Spam Detection with Machine Learning</option>
+<option value="movie-netflix-recommendation">Movie/Netflix Recommendation System</option>
+<option value="student-performance-analysis">Student Performance Analysis with Machine Learning</option>
+<option value="recommendation-system-project">Recommendation System Project with Machine Learning</option>
+<option value="sentiment-analysis">Sentiment Analysis Project with Machine Learning</option>
+<option value="social-media-analysis">Machine Learning Project on Social Media Analysis</option>
+<option value="3d-video-python-ml">Create a 3D Video with Python and Machine Learning</option>
+<option value="credit-card-fraud-detection">Credit Card Fraud Detection with Machine Learning</option>
+<option value="weather-forecasting">Weather Forecasting with Machine Learning</option>
+<option value="sms-spam-detection">SMS Spam Detection with Machine Learning</option>
+<option value="employee-turnover-prediction">Employee Turnover Prediction with Machine Learning</option>
+<option value="bitcoin-price-prediction">Bitcoin Price Prediction with Machine Learning</option>
+<option value="whatsapp-sentiment-analysis">WhatsApp Chats Sentiment Analysis</option>
+<option value="video-game-sales-prediction">Video Game Sales Prediction Model</option>
+<option value="image-segmentation-face-landmarks">Image Segmentation and Face Landmarks Detection</option>
+<option value="taxi-fare-prediction">Predict Taxi Fares with Random Forests</option>
+<option value="song-genre-classification">Classify Song Genres from Audio Data</option>
+<option value="earthquake-prediction">Earthquake Prediction Model</option>
+<option value="market-basket-analysis">Market Basket Analysis using Apriori Algorithm</option>
+<option value="sign-language-recognition">Sign Language Recognition with Machine Learning</option>
+<option value="speech-emotion-recognition">Speech Emotion Recognition Machine Learning Project</option>
+<option value="illegal-fishing-detection">Catching Illegal Fishing with Machine Learning</option>
+
               </select>
             </div>
-            <div className="form-group">
+            {/* <div className="form-group">
               <label htmlFor="experience">Experience</label>
               <select
                 name="experience"
@@ -156,7 +179,7 @@ export const JobApplicationForm = () => {
                 <option value="2">2 years</option>
                 <option value="4">4 years</option>
               </select>
-            </div>
+            </div> */}
             <button type="submit" className="btn submit-btn">
               Submit Application
             </button>
